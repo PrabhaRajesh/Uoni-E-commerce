@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tiny5&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    overflow-x: hidden;
+    /* transition: 100ms; */
+}
+header{
+    margin-top: 30px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://themewagon.github.io/Uoni/images/header-bg.png");    
+    width: 100%;
+    background-size: 100%;
+    background-color: black;
+    height: 166px;
+}
+header .Name {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .nav ul{
+    width: 90vw;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header .nav ul a{
+    color: black;
+}
+header .nav ul a:hover{
+    border: 1px solid black;
+    padding: 0px 5px;
+    background-color: red;
+    border-radius: 5px;
+}
+.part1{
+    margin-top: -10px;
+    width: 100vw;
+    height: 500px;
+    /* background-image: url("https://images.meesho.com/images/products/256417507/olv6s_512.webp");
+    background-size: contain; */
+    background-color: black;
+}
+.part2{
+    margin-top: -80px;
+    background-color: black;
+}
+.part2 .watch1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px ;
+}
+.part2 .part2-1 hr{
+    width: 400px;
+}
+.part2 .part2-1{
+    display: block;
+    background-color: black;
+    color: beige;
+    padding-left : 40px
+}
+.part2 .watch1 .logo-1{
+    width: 50vw;
+}
+.part2 .watch1 .logo-1 img{
+    width: 486px;
+    height: 360px;
+    background-color: black;
+    padding-right: 50px;
+}
+.part2 .watch1 .info-1{
+    background-color: black;
+    width: 50vw;
+    color: white;
+    padding: 50px;
+}
+.part2 .watch1 .info-1 button{
+    width: 170px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.part2 .watch1 .info-1 button:hover{
+    background-color: aliceblue;
+    transform: scale(0.9);
+}
+
+.part2 .watch2{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+.part2 .watch2 .info-2{
+    width: 40vw;
+    color: #fff;
+    padding : 50px;
+}
+.part2 .watch2 .info-2 button{
+    width: 170px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.part2 .watch2 .info-2 button:hover{
+    background-color: aliceblue;
+    transform: scale(0.9);
+}
+.seeMore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seeMore button{
+    width: 200px;
+    height: 50px;
+    padding: 10px 0px;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.seeMore button:hover{
+    background-color: red;
+    color: #fff;
+    transform: scale(0.9);
+}
+.part2 .part2-2{
+    color: #fff;
+    padding-left : 40px
+}
+.part2 .part2-2 hr{
+    width: 400px;
+}
+.part2 .watch3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+.part2 .watch3 .info-3{
+    width: 40vw;
+    color: #fff;
+    padding: 50px;
+}
+
+.part2 .watch3 .info-3 button{
+    width: 170px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.part2 .watch3 .info-3 button:hover{
+    background-color: aliceblue;
+    transform: scale(0.9);
+}
+.part2 .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.part2 .box .box1{
+    width: 250px;
+    height: 230px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.part2 .box .box2{
+    width: 250px;
+    height: 230px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.part2 .box .box3{
+    width: 250px;
+    height: 230px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.part2 .box .box4{
+    width: 250px;
+    height: 230px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.part2 .box .box1 img{
+    width: 110px;
+    height: 140px;
+}
+.part2 .box .box2 img{
+    width: 110px;
+    height: 140px;
+}
+.part2 .box .box3 img{
+    width: 110px;
+    height: 140px;
+}
+.part2 .box .box4 img{
+    width: 110px;
+    height: 140px;
+}
+.part2 .box .box1:hover{
+    background-color: azure;
+    transform: scale(0.9);
+    transition: 200ms;
+}
+.part2 .box .box2:hover{
+    background-color: azure;
+    transform: scale(0.9);
+    transition: 200ms;
+}
+.part2 .box .box3:hover{
+    background-color: azure;
+    transform: scale(0.9);
+    transition: 200ms;
+}
+.part2 .box .box4:hover{
+    background-color: azure;
+    transform: scale(0.9);
+    transition: 200ms;
+}
+.part2 .part2-3{
+    color: #fff;
+    padding-left : 40px
+}
+.part2 .part2-3 hr{
+    width: 400px;
+}
+.review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 50px;
+}
+.review1{
+    width: 50vw;
+    border: 1px solid white;
+    padding: 50px;
+    margin: 10px;
+}
+.review-info{
+    border: 1px solid white;
+    padding: 50px;
+}
+.review2{
+    width: 50vw;
+    border: 1px solid white;
+    padding: 50px;
+    margin: 10px;
+}
+.cname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cname-info{
+    padding: 20px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+.touch{
+    background-color: black;
+    
+}
+.touch .touch-1{
+    color: #fff;
+    padding-left : 40px
+}
+.touch .touch-1 hr{
+    width: 400px;
+}
+.touch .touch-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.touch .touch-2 button{
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+.touch .touch-2 button:hover{
+    background-color: #fff;
+    color: red;
+    transform: scale(0.9);
+}
+.touch .touch-2 .form{
+    width: 40vw;
+    display: block;
+}
+.touch .touch-2 .form input{
+    width: 350px;
+    padding: 15px;
+    margin:  10px 0px;
+    border-radius: 30px;
+}
+footer{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://themewagon.github.io/Uoni/images/footer-bg.png");
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+}
+
+footer .container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: -20px;
+    color: black;
+}
+footer .container ul li{
+    margin: 10px 0px 0px 0px ;
+}
+footer .container ul li a{
+    height: 80px;
+    border: 1px solid  transparent;
+}
+footer .container ul li a i{
+    height: 20px;
+    width: 30px;
+}
+footer .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .contact ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+}
+.fa-brands{
+    color: black;
+}
+footer .copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
